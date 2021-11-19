@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<airport id = "MSQ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="booking.xsd">
+    <name>Minsk National Airport</name>
+    <airlines>
+        <airline>
+            <name>Belavia</name>
+            <dob>1996-05-06</dob>
+            <airplanes>
+                <airplane id="1">
+                    <model>Airbus</model>
+                    <capacity>271</capacity>
+                    <seats>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                    </seats>
+                </airplane>
+                <airplane id="2">
+                    <model>Airbus</model>
+                    <capacity>660</capacity>
+                    <seats>
+                        <seat>
+                            <seatPitch units="cm">300</seatPitch>
+                            <width units="cm">50</width>
+                            <seatRows units="cm">100</seatRows>
+                            <type>first class</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">300</seatPitch>
+                            <width units="cm">50</width>
+                            <seatRows units="cm">100</seatRows>
+                            <type>first class</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">300</seatPitch>
+                            <width units="cm">50</width>
+                            <seatRows units="cm">100</seatRows>
+                            <type>first class</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">46</width>
+                            <seatRows units="cm">89</seatRows>
+                            <type>business</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                        <seat>
+                            <seatPitch units="cm">240</seatPitch>
+                            <width units="cm">43</width>
+                            <seatRows units="cm">79</seatRows>
+                            <type>economy</type>
+                        </seat>
+                    </seats>
+                </airplane>
+            </airplanes>
+        </airline>
+    <airline>
+        <name>Turkish Airlines</name>
+        <dob>1933-04-20</dob>
+        <airplanes>
+            <airplane id="1">
+                <model>Boing</model>
+                <capacity>240</capacity>
+                <seats>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                </seats>
+            </airplane>
+            <airplane id="2">
+                <model>Airbus</model>
+                <capacity>660</capacity>
+                <seats>
+                    <seat>
+                        <seatPitch units="cm">300</seatPitch>
+                        <width units="cm">50</width>
+                        <seatRows units="cm">100</seatRows>
+                        <type>first class</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">300</seatPitch>
+                        <width units="cm">50</width>
+                        <seatRows units="cm">100</seatRows>
+                        <type>first class</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">300</seatPitch>
+                        <width units="cm">50</width>
+                        <seatRows units="cm">100</seatRows>
+                        <type>first class</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">46</width>
+                        <seatRows units="cm">89</seatRows>
+                        <type>business</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                    <seat>
+                        <seatPitch units="cm">240</seatPitch>
+                        <width units="cm">43</width>
+                        <seatRows units="cm">79</seatRows>
+                        <type>economy</type>
+                    </seat>
+                 </seats>
+            </airplane>
+        </airplanes>
+    </airline>
+  </airlines>
+</airport>

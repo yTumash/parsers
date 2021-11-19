@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="airport" type="airportType"/>
+    <xs:complexType name="seatPitchType">
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+        <xs:attribute name="units" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="widthType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="units" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="seatRowsType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="units" type="xs:string" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="seatType">
+    <xs:sequence>
+      <xs:element name="seatPitch" type="seatPitchType"/>
+      <xs:element name="width" type="widthType"/>
+      <xs:element name="seatRows" type="seatRowsType"/>
+      <xs:element name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="business"/>
+            <xs:enumeration value="economy"/>
+            <xs:enumeration value="first class"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="seatsType">
+    <xs:sequence>
+      <xs:element name="seat" type="seatType" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="airplaneType">
+    <xs:sequence>
+      <xs:element name="model">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Airbus"/>
+            <xs:enumeration value="Boing"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="capacity">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="271"/>
+            <xs:enumeration value="660"/>
+            <xs:enumeration value="240"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="seats" type="seatsType"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="airplanesType">
+    <xs:sequence>
+      <xs:element name="airplane" type="airplaneType" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="airlineType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Belavia"/>
+            <xs:enumeration value="Turkish Airlines"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="dob">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1996-05-06"/>
+            <xs:enumeration value="1933-04-20"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="airplanes" type="airplanesType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="airlinesType">
+    <xs:sequence>
+      <xs:element name="airline" type="airlineType" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="airportType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element  name="airlines" type="airlinesType"/>
+    </xs:sequence>
+    <xs:attribute  name="id" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

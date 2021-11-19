@@ -1,0 +1,274 @@
+{
+  "id": "MSQ",
+  "name": "Minsk National Airport",
+  "airlines": [
+    {
+      "name": "Belavia",
+      "dob": "1996-05-06",
+      "airplanes": [
+        {
+          "id": 1,
+          "model": "AIRBUS",
+          "capacity": 271,
+          "seats": [
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "model": "AIRBUS",
+          "capacity": 660,
+          "seats": [
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turkish Airlines",
+      "dob": "1933-04-20",
+      "airplanes": [
+        {
+          "id": 1,
+          "model": "BOING",
+          "capacity": 240,
+          "seats": [
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "model": "AIRBUS",
+          "capacity": 660,
+          "seats": [
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 300,
+              "width": 50,
+              "seatRows": 100,
+              "type": "FIRST_CLASS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 46,
+              "seatRows": 89,
+              "type": "BUSINESS"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            },
+            {
+              "seatPitch": 240,
+              "width": 43,
+              "seatRows": 79,
+              "type": "ECONOMY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
