@@ -9,20 +9,21 @@ import java.io.File;
 public class JaxbParser implements Parsable {
 
     final Logger LOGGER = LogManager.getLogger(DomParser.class);
+    private Airport airport;
 
     @Override
-    public void parse() {
+    public Airport parse(File aFile) {
 
-        File file = new File("C:\\Users\\Yana\\Desktop\\ticket_booking\\src\\main\\resources\\booking.xml");
         try {
             JAXBContext context = JAXBContext.newInstance(Airport.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            Airport airport = (Airport) unmarshaller.unmarshal(file);
+            Airport airport = (Airport) unmarshaller.unmarshal(aFile);
             LOGGER.debug("Airport id: " + airport.getId());
             LOGGER.debug("Airport name : " + airport.getName());
             LOGGER.debug("Airport airlines : " + airport.getAirlines());
         } catch (JAXBException e) {
             e.printStackTrace();
         }
+        return airport;
     }
 }

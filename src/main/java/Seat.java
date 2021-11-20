@@ -13,6 +13,37 @@ public class Seat {
     private Integer width;
     private Integer seatRows;
 
+    @JsonFormat(shape = JsonFormat.Shape.OBJECT)
+    public enum Type {
+        ECONOMY("economy"),
+        PREMIUM_ECONOMY("premium economy"),
+        BUSINESS("business"),
+        FIRST_CLASS("first class");
+
+        private String t;
+
+        Type(String t) {
+            this.t = t;
+        }
+
+        public static Type takeSeat(String t) {
+            for (Type type : Type.values()) {
+                if (type.getType().equals(t)) {
+                    return type;
+                }
+            }
+            return null;
+        }
+
+        public String getType() {
+            return t;
+        }
+
+        public void setType(String t) {
+            this.t = t;
+        }
+    }
+
     public Type getType() {
         return type;
     }
@@ -45,35 +76,5 @@ public class Seat {
         this.seatRows = seatRows;
     }
 
-    @JsonFormat(shape = JsonFormat.Shape.OBJECT)
-    public enum Type {
-        ECONOMY("economy"),
-        PREMIUM_ECONOMY("premium economy"),
-        BUSINESS("business"),
-        FIRST_CLASS("first class");
-
-        private String t;
-
-        Type(String t) {
-            this.t = t;
-        }
-
-        public static Type takeSeat(String t) {
-            for (Type type : Type.values()) {
-                if (type.getType().equals(t)) {
-                    return type;
-                }
-            }
-            return null;
-        }
-
-        public String getType() {
-            return t;
-        }
-
-        public void setType(String t) {
-            this.t = t;
-        }
-    }
 }
 

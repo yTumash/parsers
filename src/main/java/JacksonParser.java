@@ -9,19 +9,19 @@ public class JacksonParser implements Parsable{
 
     private static final Logger LOGGER = LogManager.getLogger(Airport.class);
     private static final ObjectMapper objectMapper = new ObjectMapper();
+    private Airport airport;
 
     @Override
-    public void parse() {
-        Airport airport;
+    public Airport parse(File aFile2) {
         {
             try {
-                airport = objectMapper.readValue(new File("C:\\Users\\Yana\\Desktop\\ticket_booking\\src\\main\\resources\\booking.json"), Airport.class);
+                airport = objectMapper.readValue(aFile2, Airport.class);
                 LOGGER.debug(" Airport ID: " + airport.getId() + " Airport Name: " + airport.getName() + " Airport Airlines: " + airport.getAirlines());
 
             } catch (IOException e) {
-                e.printStackTrace();
+                LOGGER.error(e.getMessage(), e);
             }
         }
+        return airport;
     }
-
 }

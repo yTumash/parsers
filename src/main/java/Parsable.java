@@ -1,5 +1,7 @@
+import java.io.File;
+
 public interface Parsable {
 
-    void parse();
+    Airport parse(File aFile);
 
 }

@@ -139,7 +139,7 @@
         <name>Turkish Airlines</name>
         <dob>1933-04-20</dob>
         <airplanes>
-            <airplane id="1">
+            <airplane id="3">
                 <model>Boing</model>
                 <capacity>240</capacity>
                 <seats>
@@ -193,7 +193,7 @@
                     </seat>
                 </seats>
             </airplane>
-            <airplane id="2">
+            <airplane id="4">
                 <model>Airbus</model>
                 <capacity>660</capacity>
                 <seats>
