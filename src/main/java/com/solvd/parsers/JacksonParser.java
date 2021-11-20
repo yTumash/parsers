@@ -1,3 +1,5 @@
+package com.solvd.parsers;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,12 +9,12 @@ import java.io.IOException;
 
 public class JacksonParser implements Parsable{
 
-    private static final Logger LOGGER = LogManager.getLogger(Airport.class);
-    private static final ObjectMapper objectMapper = new ObjectMapper();
-    private Airport airport;
+    final Logger LOGGER = LogManager.getLogger(Airport.class);
+    final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
     public Airport parse(File aFile2) {
+        Airport airport = null;
         {
             try {
                 airport = objectMapper.readValue(aFile2, Airport.class);

@@ -1,8 +1,9 @@
+package com.solvd.parsers;
+
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 import java.time.LocalDate;
 
 public class DateAdapter extends XmlAdapter<String, LocalDate> {
-
 
     @Override
     public String marshal(LocalDate date) throws Exception {

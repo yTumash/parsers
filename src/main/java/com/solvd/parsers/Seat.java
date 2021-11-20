@@ -1,3 +1,5 @@
+package com.solvd.parsers;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import javax.xml.bind.annotation.XmlAccessType;

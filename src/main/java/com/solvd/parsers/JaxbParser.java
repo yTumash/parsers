@@ -1,3 +1,5 @@
+package com.solvd.parsers;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,15 +11,15 @@ import java.io.File;
 public class JaxbParser implements Parsable {
 
     final Logger LOGGER = LogManager.getLogger(DomParser.class);
-    private Airport airport;
 
     @Override
     public Airport parse(File aFile) {
 
+        Airport airport = null;
         try {
             JAXBContext context = JAXBContext.newInstance(Airport.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            Airport airport = (Airport) unmarshaller.unmarshal(aFile);
+            airport = (Airport) unmarshaller.unmarshal(aFile);
             LOGGER.debug("Airport id: " + airport.getId());
             LOGGER.debug("Airport name : " + airport.getName());
             LOGGER.debug("Airport airlines : " + airport.getAirlines());

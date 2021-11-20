@@ -1,3 +1,5 @@
+package com.solvd.parsers;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
@@ -15,11 +17,12 @@ import java.io.IOException;
 public class DomParser implements Parsable {
 
     final Logger LOGGER = LogManager.getLogger(DomParser.class);
-    private Airport airport;
+    
 
     @Override
     public Airport parse(File aFile1) {
 
+        Airport airport = null;
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
